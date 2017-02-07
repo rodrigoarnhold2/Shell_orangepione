@@ -7,6 +7,12 @@ echo "out" > /sys/class/gpio/gpio12/direction
 # Inicializa a saida com nivel logico 0 (led desligado)
 echo 0 > /sys/class/gpio/gpio12/value
 
+trap "echo 12 > /sys/class/gpio/unexport; exit 0" 1 2 15
+# 1 - SIGUP
+# 2 - SIGINT
+# 3 - SIGTERM
+
+
 #loop infinito
 while true
 do
