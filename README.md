@@ -11,7 +11,6 @@ https://youtu.be/1O58ojII1u0
 
 https://youtu.be/HhCFxnbqX8o
 
-
-# Breve
-Post do embarcados.com.br detalhando melhor o funcionamento destes exemplos.
+#Artigo
+https://www.embarcados.com.br/orange-pi-one-gpios-shell-script/
 
